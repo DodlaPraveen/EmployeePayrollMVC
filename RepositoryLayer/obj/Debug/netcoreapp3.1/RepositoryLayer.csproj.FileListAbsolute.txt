@@ -1,0 +1,13 @@
+G:\CFP\EmpPayRollmvc\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.deps.json
+G:\CFP\EmpPayRollmvc\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.dll
+G:\CFP\EmpPayRollmvc\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.pdb
+G:\CFP\EmpPayRollmvc\RepositoryLayer\bin\Debug\netcoreapp3.1\ModelLayer.dll
+G:\CFP\EmpPayRollmvc\RepositoryLayer\bin\Debug\netcoreapp3.1\ModelLayer.pdb
+G:\CFP\EmpPayRollmvc\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.AssemblyReference.cache
+G:\CFP\EmpPayRollmvc\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+G:\CFP\EmpPayRollmvc\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.AssemblyInfoInputs.cache
+G:\CFP\EmpPayRollmvc\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.AssemblyInfo.cs
+G:\CFP\EmpPayRollmvc\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.CoreCompileInputs.cache
+G:\CFP\EmpPayRollmvc\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.CopyComplete
+G:\CFP\EmpPayRollmvc\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.dll
+G:\CFP\EmpPayRollmvc\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.pdb
