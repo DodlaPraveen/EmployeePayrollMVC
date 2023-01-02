@@ -8,7 +8,11 @@ namespace BusinessLayer.Interface
     public interface IEmpBl
     {
 
-        public void AddEmployee(EmployeeModel employee);
-       
+        public void AddEmployee(EmployeeModel employeemodel);
+        List<EmployeeModel> getEmployeeList();
+        EmployeeModel getEmployeeById(int? id);
+        void deleteEmployee(EmployeeModel employeeModel);
+        void editEmployee(EmployeeModel employeeModel);
+
     }
 }

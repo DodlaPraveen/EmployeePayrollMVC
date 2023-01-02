@@ -123,3 +123,7 @@ G:\CFP\EmpPayRollmvc\EmpPayRollmvc\obj\Debug\netcoreapp3.1\Razor\Views\Employee\
 G:\CFP\EmpPayRollmvc\EmpPayRollmvc\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 G:\CFP\EmpPayRollmvc\EmpPayRollmvc\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 G:\CFP\EmpPayRollmvc\EmpPayRollmvc\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+G:\CFP\EmpPayRollmvc\EmpPayRollmvc\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
+G:\CFP\EmpPayRollmvc\EmpPayRollmvc\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Details.cshtml.g.cs
+G:\CFP\EmpPayRollmvc\EmpPayRollmvc\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs
+G:\CFP\EmpPayRollmvc\EmpPayRollmvc\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs

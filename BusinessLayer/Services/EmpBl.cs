@@ -7,31 +7,79 @@ using System.Text;
 
 namespace BusinessLayer.Services
 {
-    
-    
-        public class EmpBl : IEmpBl
+
+
+    public class EmpBl : IEmpBl
+    {
+        IEmpRl iemprl;
+
+        public EmpBl(IEmpRl iemprl)
         {
-            IEmpRl iemprl;
+            this.iemprl = iemprl;
+        }
 
-            public EmpBl(IEmpRl iemprl)
+        public void AddEmployee(EmployeeModel employeemodel)
+        {
+            try
             {
-                this.iemprl = iemprl;
+                this.iemprl.AddEmployee(employeemodel);
             }
-
-            public void AddEmployee(EmployeeModel employee)
+            catch (Exception e)
             {
-                try
-                {
-                    this.iemprl.AddEmployee(employee); 
-                }
-                catch (Exception e)
-                {
 
-                    throw e;
-                }
+                throw e;
             }
-       
+        }
+
+        public void deleteEmployee(EmployeeModel employeeModel)
+        {
+            try
+            {
+                this.iemprl.deleteEmployee(employeeModel);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public void editEmployee(EmployeeModel employeemodel)
+        {
+            try
+            {
+               this.iemprl.editEmployee(employeemodel);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public EmployeeModel getEmployeeById(int? id)
+        {
+            try
+            {
+                return this.iemprl.getEmployeeById(id);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public List<EmployeeModel> getEmployeeList()
+        {
+            try
+            {
+                return this.iemprl.getEmployeeList();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
     }
+   
 
-    
+
 }

@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ModelLayer.Services.EmployeeModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EMPID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IMG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NAME)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GENDER)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DEPARTMENT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SALARY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.START_DATE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NOTES)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EMPID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IMG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NAME)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GENDER)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DEPARTMENT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SALARY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.START_DATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NOTES)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.EMPID  }) |
+                @Html.ActionLink("Details", "Details", new { id=item.EMPID }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.EMPID })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
